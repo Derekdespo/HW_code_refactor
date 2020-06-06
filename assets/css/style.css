@@ -4,24 +4,26 @@
     margin: 0;
 }
 
+/* The body of the page will appear white */
 body {
     background-color: #d9dcd6;
 }
 
+/* This will affect the background, font, and text color at the top of our page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Sizing and color of the Horiseon name within the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-
+/* The nav element's location within the header. It will also affect the text's font style and size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -30,24 +32,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Affects the style of the list elements within the nav element */
 header nav ul {
     list-style-type: none;
 }
 
+/* Changes how the list elements within the name will be positioned and adds margin to the left side */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This affects the color of links embedded in the li elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the size of the font in the paragraph element to 16 pixels  */
 p {
     font-size: 16px;
 }
 
+/* Dictates the size and location of the hero class div element and tells us where the image comes from */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,13 +64,16 @@ p {
     background-position: center;
 }
 
+/* Shows us how much space the main element should take up on the page as well as its distance from the edge */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside {
+/* Location of the the article element as well as the space it will consume and the color of its background */
+/* Overflow keeps the content inside of this element */
+article {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -75,26 +85,28 @@ aside {
     overflow: auto;
 }
 
+/* Determines the color of the text in each class as well as the space meant to be applied between them */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-
+/* Will center the text within its container and add some margin on the bottom to add separation from the following element */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
+/* Dictates the location and size of each img within each aside of the article */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* This will chnage the size of each section element within the main as well as the background and font */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,26 +116,27 @@ aside {
     color: #ffffff;
 }
 
-
+/* Alters the height of these images as well as pushes them to the left side of these sections */
 .search-engine-optimization img, .social-media-marketing img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
+/* Alters the hegiht of the image pushes it to the right side of the section */
 .online-reputation-management img {
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
 
-
+/* Will change the font size and add margin at the bottom */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Layout for the footer. Gives it size, selects a font for text, and centers it within the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -132,6 +145,7 @@ footer {
     
 }
 
+/* Size of the h2 text in the footer */
 footer h2 {
     font-size: 20px;
 }
